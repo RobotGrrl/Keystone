@@ -91,7 +91,7 @@
         "silk_overlap|179832000|84984000|d1210dcb-6a2a-4963-ad24-1a8f40bb5e0b|29f04609-1d95-480c-a565-1497411b358d",
         "silk_overlap|179832000|84984000|d1210dcb-6a2a-4963-ad24-1a8f40bb5e0b|e217c770-df97-4f64-bd6e-0b522b6c3da4",
         "silk_overlap|179832000|84984000|d1210dcb-6a2a-4963-ad24-1a8f40bb5e0b|f0839e58-1b60-4590-9c3e-973485b07f3b",
-        "silk_overlap|205266692|86167942|a4444a6a-4a26-4233-9aa0-bcef09b5060d|ea3c9feb-a8f7-43fc-8424-1e4e39accd56",
+        "silk_overlap|212578004|108385955|d6c8be74-5a15-4d32-9339-690c499f56e4|c55a47e7-182e-4938-89de-b845c6a21ecc",
         "starved_thermal|181356000|97673000|58db65c2-d503-407b-a5e8-f27b0990a57e|a78f0bfb-8e62-4080-8763-ad387941e137|B.Cu",
         "starved_thermal|181356000|97673000|58db65c2-d503-407b-a5e8-f27b0990a57e|a78f0bfb-8e62-4080-8763-ad387941e137|F.Cu",
         "starved_thermal|191897000|86271500|58db65c2-d503-407b-a5e8-f27b0990a57e|1a93fade-d7c9-464e-b5f0-3aedb5e45c4b|F.Cu"
@@ -577,11 +577,65 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey2",
+          "name": "Digikey2",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
